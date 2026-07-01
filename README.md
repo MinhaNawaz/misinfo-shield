@@ -1,123 +1,180 @@
-🛡️ Misinfo Shield
+# 🛡️ Misinfo Shield
 
-An AI-powered platform for detecting misinformation, scams, and fake news across multiple content formats.
+> **An AI-powered platform for detecting misinformation, scams, and fake news across multiple content formats.**
 
-Misinfo Shield helps users identify potentially misleading or harmful information by analyzing text, images, and audio. Designed with multilingual support, it assists users in verifying content in English, Urdu, and Roman Urdu through an intuitive and responsive interface.
+Misinfo Shield helps users identify misleading or harmful information by analyzing **text, images, and audio**. The platform supports **English, Urdu, and Roman Urdu**, providing users with an easy and interactive way to verify online content.
 
-🌐 Live Demo
-Service	Platform	Link
-Frontend	Vercel	https://misinfo-shield.vercel.app
-GitHub Repository	GitHub	https://github.com/MinhaNawaz/misinfo-shield
-✨ Key Features
-📝 Analyze suspicious text messages and news articles
-🖼️ Upload screenshots for OCR-based text extraction and verification
-🎙️ Upload voice recordings for AI-powered transcription and analysis
-🌍 Supports English, Urdu, and Roman Urdu
-📊 Dynamic risk score with LOW, MEDIUM, and HIGH threat levels
-🔍 Detects scam indicators and misleading content
-🕌 Identifies potentially fabricated religious references
-🗳️ Highlights political misinformation and propaganda
-📥 Download analysis reports
-🗂️ Local scan history for previously analyzed content
-📱 Fully responsive modern user interface
-🏗️ Project Structure
+---
+
+## 🌐 Live Demo
+
+| Platform | Link |
+|----------|------|
+| 🚀 Live Website | https://misinfo-shield.vercel.app |
+| 💻 GitHub Repository | https://github.com/MinhaNawaz/misinfo-shield |
+
+---
+
+# ✨ Features
+
+- 📝 Analyze suspicious text messages and news articles
+- 🖼️ OCR-based image analysis
+- 🎙️ AI-powered voice transcription and analysis
+- 🌍 English, Urdu & Roman Urdu support
+- 📊 Dynamic Risk Score
+- 🔍 Scam & fake news detection
+- 🕌 Religious misinformation detection
+- 🗳️ Political rumor detection
+- 📥 Downloadable reports
+- 🗂️ Scan history
+- 📱 Fully responsive interface
+
+---
+
+# 🏗️ Project Structure
+
+```text
 misinfo-shield/
 │
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
 │   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
 │   ├── utils/
-│   └── App.tsx
+│   ├── App.tsx
+│   └── main.tsx
 │
 ├── public/
 ├── package.json
 ├── vite.config.ts
+├── tailwind.config.ts
 └── README.md
-🧠 Technologies Used
-Frontend
-React
-TypeScript
-Vite
-Tailwind CSS
-shadcn/ui
-Lucide React
-React Router
-Vercel
-AI & Development Tools
-ChatGPT
-Claude AI
-Figma
-Git
-GitHub
-🚀 Getting Started
-Clone the Repository
+```
+
+---
+
+# 🧠 Tech Stack
+
+## Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+- React Router
+- Vercel
+
+## Development Tools
+
+- Figma
+- ChatGPT
+- Claude AI
+- Git
+- GitHub
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
 git clone https://github.com/MinhaNawaz/misinfo-shield.git
+```
 
-Navigate into the project folder.
+## Navigate into the project
 
+```bash
 cd misinfo-shield
+```
 
-Install dependencies.
+## Install dependencies
 
+```bash
 npm install
+```
 
-Start the development server.
+## Start Development Server
 
+```bash
 npm run dev
+```
 
-Build for production.
+## Create Production Build
 
+```bash
 npm run build
-💡 Workflow
+```
 
-The development process followed these steps:
+---
 
-Planned the application architecture.
-Designed the user interface using Figma.
-Built responsive frontend components with React and TypeScript.
-Used AI tools such as ChatGPT and Claude to:
-Brainstorm features
-Debug issues
-Improve code quality
-Generate documentation
-Refine UI ideas
-Tested responsiveness across different screen sizes.
-Managed version control using GitHub.
-Deployed the application on Vercel.
-🎯 Project Objectives
+# 💡 Development Workflow
 
-Misinfo Shield aims to:
+1. Planned project requirements.
+2. Designed UI in Figma.
+3. Built responsive components using React & TypeScript.
+4. Used ChatGPT and Claude for:
+   - Brainstorming ideas
+   - Debugging
+   - Improving code quality
+   - Documentation
+   - UI suggestions
+5. Tested responsiveness.
+6. Managed source code with GitHub.
+7. Deployed on Vercel.
 
-Reduce the spread of misinformation
-Help users recognize scams and phishing attempts
-Promote digital literacy
-Encourage verification before sharing online content
-Provide an accessible verification tool for multilingual users
-🌍 Potential Use Cases
-Verifying WhatsApp messages
-Detecting fake news articles
-Checking suspicious screenshots
-Analyzing forwarded voice messages
-Identifying misinformation on social media
-Educational demonstrations of AI-assisted fact verification
-⚠️ Disclaimer
+---
 
-Misinfo Shield is an educational and awareness-focused application. AI-generated results should not be considered official fact-checking or legal advice. Users should always verify important information using trusted and authoritative sources.
+# 🎯 Project Goals
 
-👩‍💻 Author
+- Reduce misinformation spread
+- Detect online scams
+- Improve digital literacy
+- Verify online content
+- Provide multilingual accessibility
 
-Minha Nawaz
+---
 
-Software Engineering Student
+# 🌍 Use Cases
 
-📧 Email: minhanawaz07@gmail.com
+- Verify WhatsApp forwards
+- Detect fake news
+- Analyze suspicious screenshots
+- Verify voice messages
+- Identify online scams
+- Educational demonstrations
 
-🔗 GitHub: https://github.com/MinhaNawaz
+---
 
-💼 LinkedIn: https://www.linkedin.com/in/minha-nawaz-0607312b8
+# 👩‍💻 Author
 
-📄 License
+## Minha Nawaz
 
-This project is licensed under the MIT License.
+🎓 BS Software Engineering Student
+
+📧 **Email**
+
+minhanawaz07@gmail.com
+
+💻 **GitHub**
+
+https://github.com/MinhaNawaz
+
+💼 **LinkedIn**
+
+https://www.linkedin.com/in/minha-nawaz-0607312b8
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a **Star ⭐** on GitHub.
